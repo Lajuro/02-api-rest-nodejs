@@ -9,7 +9,7 @@ Funcionalidades específicas que o sistema deve oferecer aos usuários.
 ### Exemplos de recursos funcionais
 
 - [x] O usuário deve poder criar uma nova transação;
-- [ ] O usuário deve poder obter um resumo da sua conta bancária;
+- [x] O usuário deve poder obter um resumo da sua conta bancária;
 - [x] O usuário deve poder listar todas as transações que já ocorreram;
 - [x] O usuário deve poder visualizar uma transação específica;
 
@@ -20,8 +20,8 @@ Diretrizes e restrições que governam as operações do sistema.
 ### Exemplos de regras de negócio
 
 - [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito que subtrairá;
-- [ ] Deve ser possível identificarmos o usuário entre as requisições;
-- [ ] O usuário só pode visualizar transações que ele mesmo criou;
+- [x] Deve ser possível identificarmos o usuário entre as requisições;
+- [x] O usuário só pode visualizar transações que ele mesmo criou;
 
 ## Recursos Não Funcionais
 
@@ -29,10 +29,9 @@ Características gerais do sistema, como desempenho, segurança, usabilidade, es
 
 ### Exemplos de recursos não funcionais
 
-- [ ] O sistema deve ser rápido, ou seja, deve ser capaz de processar uma requisição em menos de 5 segundos;
-- [ ] O sistema deve ser seguro, ou seja, deve ser capaz de proteger os dados dos usuários;
-- [ ] O sistema deve ser escalável, ou seja, deve ser capaz de lidar com um grande número de usuários e transações;
-- [ ] O sistema deve ser fácil de usar, ou seja, deve ser capaz de ser utilizado por qualquer pessoa;
+- [x] O sistema deve ser rápido, ou seja, deve ser capaz de processar uma requisição em menos de 5 segundos;
+- [x] O sistema deve ser seguro, ou seja, deve ser capaz de proteger os dados dos usuários;
+- [x] O sistema deve ser fácil de usar, ou seja, deve ser capaz de ser utilizado por qualquer pessoa;
 
 ## Entidades
 
@@ -40,8 +39,7 @@ Principais objetos ou conceitos manipulados pelo sistema.
 
 ### Exemplos de entidades
 
-- [ ] Transação
-- [ ] Usuário
+- [x] Transação
 
 ## Casos de Uso
 
@@ -49,17 +47,6 @@ Cenários específicos de interação entre usuários e o sistema.
 
 ### Exemplos de casos de uso
 
-- [ ] O usuário deve poder criar uma nova transação;
-- [ ] O usuário deve poder obter um resumo da sua conta bancária;
-- [ ] O usuário deve poder listar todas as transações que já ocorreram;
-
-## Interface de Usuário
-
-Descrições ou esboços da interface com a qual os usuários interagirão.
-
-### Exemplos de interfaces de usuário
-
-- [ ] Tela de login;
-- [ ] Tela de criação de transação;
-- [ ] Tela de listagem de transações;
-- [ ] Tela de resumo da conta bancária;
+- [x] O usuário deve poder criar uma nova transação;
+- [x] O usuário deve poder obter um resumo da sua conta bancária;
+- [x] O usuário deve poder listar todas as transações que já ocorreram;
